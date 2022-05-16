@@ -136,17 +136,58 @@
 		90D4F2A22831DF19003B7048 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90D4F2D52831F399003B7048 /* Footer */,
+				90D4F2D42831F385003B7048 /* Features */,
+				90D4F2D32831F379003B7048 /* Components */,
+				90D4F2D22831F360003B7048 /* Header */,
 				90D4F2842831DEF5003B7048 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90D4F2A32831DF1F003B7048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F2B42831E5AA003B7048 /* Feature.swift */,
+				90D4F2B62831E680003B7048 /* FeatureStorage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90D4F2D22831F360003B7048 /* Header */ = {
+			isa = PBXGroup;
+			children = (
 				90D4F2A42831E159003B7048 /* HeaderView.swift */,
 				90D4F2A62831E16A003B7048 /* HeaderBackgroundView.swift */,
 				90D4F2A82831E1FE003B7048 /* HeaderContentView.swift */,
 				90D4F2AA2831E212003B7048 /* HeaderTitleView.swift */,
-				90D4F2AC2831E2D6003B7048 /* GetStartedButtonView.swift */,
 				90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */,
 				90D4F2B02831E427003B7048 /* TopNavigationView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		90D4F2D32831F379003B7048 /* Components */ = {
+			isa = PBXGroup;
+			children = (
 				90D4F2B22831E449003B7048 /* TryButtonView.swift */,
+				90D4F2AC2831E2D6003B7048 /* GetStartedButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		90D4F2D42831F385003B7048 /* Features */ = {
+			isa = PBXGroup;
+			children = (
 				90D4F2B82831E7D8003B7048 /* FeaturesView.swift */,
 				90D4F2BA2831E822003B7048 /* FeatureItemView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		90D4F2D52831F399003B7048 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
 				90D4F2BC2831E997003B7048 /* FooterView.swift */,
 				90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */,
 				90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */,
@@ -159,16 +200,7 @@
 				90D4F2CE2831EEA1003B7048 /* FooterCopyrightView.swift */,
 				90D4F2D02831EF43003B7048 /* FooterOverlayView.swift */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		90D4F2A32831DF1F003B7048 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				90D4F2B42831E5AA003B7048 /* Feature.swift */,
-				90D4F2B62831E680003B7048 /* FeatureStorage.swift */,
-			);
-			path = Models;
+			path = Footer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

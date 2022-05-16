@@ -1,5 +1,5 @@
 //
-//  TryButtonView.swift
+//  GetStartedButtonView.swift
 //  Huddle Landing Page With Alternating Feature Blocks (iOS)
 //
 //  Created by Jinwook Kim on 2022/05/16.
@@ -7,28 +7,28 @@
 
 import SwiftUI
 
-struct TryButtonView: View {
+struct GetStartedButtonView: View {
     var body: some View {
         Button {
-            // TODO: TRY IT FREE BUTTON.
+            // TODO: GET STARTED BUTTON.
         } label: {
-            Text("Try It Free")
+            Text("Get Started For Free")
                 .font(.title3.bold())
-                .foregroundColor(Color("TitleColor"))
+                .foregroundColor(.white)
                 .padding()
-                .padding(.horizontal, 24)
-                .background(Color.white)
+                .padding(.horizontal, 48)
+                .background(Color("ButtonColor"))
                 .cornerRadius(.infinity)
                 .shadow(radius: 10)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }
 
-struct TryButtonView_Previews: PreviewProvider {
+struct GetStartedButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        TryButtonView()
+        GetStartedButtonView()
             .padding()
-            .background(Color("BackgroundColor"))
             .previewLayout(.sizeThatFits)
     }
 }

@@ -20,6 +20,8 @@ struct FeatureItemView: View {
                     Text(feature.title)
                         .font(.title.bold())
                         .foregroundColor(.init("TitleColor"))
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
                     Text(feature.content)
                         .foregroundColor(.init("TextColor"))
                         .fixedSize(horizontal: false, vertical: true)
