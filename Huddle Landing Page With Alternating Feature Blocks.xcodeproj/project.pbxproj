@@ -22,6 +22,7 @@
 		90D4F2B12831E427003B7048 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B02831E427003B7048 /* TopNavigationView.swift */; };
 		90D4F2B32831E449003B7048 /* TryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B22831E449003B7048 /* TryButtonView.swift */; };
 		90D4F2B52831E5AA003B7048 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B42831E5AA003B7048 /* Feature.swift */; };
+		90D4F2B72831E680003B7048 /* FeatureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B62831E680003B7048 /* FeatureStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		90D4F2B02831E427003B7048 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90D4F2B22831E449003B7048 /* TryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryButtonView.swift; sourceTree = "<group>"; };
 		90D4F2B42831E5AA003B7048 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		90D4F2B62831E680003B7048 /* FeatureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				90D4F2B42831E5AA003B7048 /* Feature.swift */,
+				90D4F2B62831E680003B7048 /* FeatureStorage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D4F2B72831E680003B7048 /* FeatureStorage.swift in Sources */,
 				90D4F2952831DEF6003B7048 /* ContentView.swift in Sources */,
 				90D4F2A72831E16A003B7048 /* HeaderBackgroundView.swift in Sources */,
 				90D4F2B12831E427003B7048 /* TopNavigationView.swift in Sources */,

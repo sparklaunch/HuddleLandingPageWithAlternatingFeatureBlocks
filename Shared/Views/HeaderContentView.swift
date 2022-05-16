@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HeaderContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 64) {
             TopNavigationView()
             VStack(spacing: 36) {
                 HeaderTitleView()

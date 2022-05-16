@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var featureStorage: FeatureStorage = .init()
     var body: some View {
         ScrollView {
             VStack {
                 HeaderView()
             }
+            .environmentObject(featureStorage)
         }
         .edgesIgnoringSafeArea(.all)
         .onAppear {
@@ -24,5 +26,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(FeatureStorage())
     }
 }
