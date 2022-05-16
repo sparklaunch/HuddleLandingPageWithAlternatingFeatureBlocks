@@ -22,13 +22,15 @@ struct FooterView: View {
                     FooterSitemapView()
                 }
                 .padding(24)
-                FooterSocialMediaView()
-                FooterCopyrightView()
+                VStack(spacing: 16) {
+                    FooterSocialMediaView()
+                    FooterCopyrightView()
+                }
             }
             .padding(.top, 120)
             .padding(.bottom, 36)
         }
-        .overlay(FooterOverlay()
+        .overlay(FooterOverlayView()
             .padding()
             .offset(x: .zero, y: -120), alignment: .top)
         .fixedSize(horizontal: false, vertical: true)

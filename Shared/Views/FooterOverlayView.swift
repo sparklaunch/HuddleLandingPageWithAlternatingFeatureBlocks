@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FooterOverlay: View {
+struct FooterOverlayView: View {
     var body: some View {
         ZStack {
             Color.white
@@ -27,9 +27,9 @@ struct FooterOverlay: View {
     }
 }
 
-struct FooterOverlay_Previews: PreviewProvider {
+struct FooterOverlayView_Previews: PreviewProvider {
     static var previews: some View {
-        FooterOverlay()
+        FooterOverlayView()
             .padding()
             .previewLayout(.sizeThatFits)
     }
