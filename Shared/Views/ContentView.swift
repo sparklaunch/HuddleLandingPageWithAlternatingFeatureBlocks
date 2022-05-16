@@ -13,6 +13,7 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 HeaderView()
+                FeaturesView()
             }
             .environmentObject(featureStorage)
         }

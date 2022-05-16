@@ -23,6 +23,8 @@
 		90D4F2B32831E449003B7048 /* TryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B22831E449003B7048 /* TryButtonView.swift */; };
 		90D4F2B52831E5AA003B7048 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B42831E5AA003B7048 /* Feature.swift */; };
 		90D4F2B72831E680003B7048 /* FeatureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B62831E680003B7048 /* FeatureStorage.swift */; };
+		90D4F2B92831E7D8003B7048 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B82831E7D8003B7048 /* FeaturesView.swift */; };
+		90D4F2BB2831E822003B7048 /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2BA2831E822003B7048 /* FeatureItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		90D4F2B22831E449003B7048 /* TryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryButtonView.swift; sourceTree = "<group>"; };
 		90D4F2B42831E5AA003B7048 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		90D4F2B62831E680003B7048 /* FeatureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureStorage.swift; sourceTree = "<group>"; };
+		90D4F2B82831E7D8003B7048 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		90D4F2BA2831E822003B7048 /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */,
 				90D4F2B02831E427003B7048 /* TopNavigationView.swift */,
 				90D4F2B22831E449003B7048 /* TryButtonView.swift */,
+				90D4F2B82831E7D8003B7048 /* FeaturesView.swift */,
+				90D4F2BA2831E822003B7048 /* FeatureItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +245,8 @@
 				90D4F2B52831E5AA003B7048 /* Feature.swift in Sources */,
 				90D4F2AD2831E2D6003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,
+				90D4F2B92831E7D8003B7048 /* FeaturesView.swift in Sources */,
+				90D4F2BB2831E822003B7048 /* FeatureItemView.swift in Sources */,
 				90D4F2AF2831E38F003B7048 /* HeaderIllustrationView.swift in Sources */,
 				90D4F2932831DEF6003B7048 /* HuddleLandingPageWithAlternatingFeatureBlocksApp.swift in Sources */,
 				90D4F2A92831E1FE003B7048 /* HeaderContentView.swift in Sources */,
