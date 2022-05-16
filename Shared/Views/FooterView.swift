@@ -15,6 +15,7 @@ struct FooterView: View {
                 FooterLogoView()
                 FooterLocationView()
                 FooterContactView()
+                FooterEmailView()
             }
             .padding(24)
         }

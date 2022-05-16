@@ -29,6 +29,7 @@
 		90D4F2BF2831E9CA003B7048 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */; };
 		90D4F2C12831EA3C003B7048 /* FooterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */; };
 		90D4F2C32831EB0D003B7048 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2C22831EB0D003B7048 /* FooterContactView.swift */; };
+		90D4F2C52831EB85003B7048 /* FooterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2C42831EB85003B7048 /* FooterEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 		90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLocationView.swift; sourceTree = "<group>"; };
 		90D4F2C22831EB0D003B7048 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
+		90D4F2C42831EB85003B7048 /* FooterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */,
 				90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */,
 				90D4F2C22831EB0D003B7048 /* FooterContactView.swift */,
+				90D4F2C42831EB85003B7048 /* FooterEmailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,
 				90D4F2BF2831E9CA003B7048 /* FooterLogoView.swift in Sources */,
 				90D4F2B92831E7D8003B7048 /* FeaturesView.swift in Sources */,
+				90D4F2C52831EB85003B7048 /* FooterEmailView.swift in Sources */,
 				90D4F2BB2831E822003B7048 /* FeatureItemView.swift in Sources */,
 				90D4F2AF2831E38F003B7048 /* HeaderIllustrationView.swift in Sources */,
 				90D4F2932831DEF6003B7048 /* HuddleLandingPageWithAlternatingFeatureBlocksApp.swift in Sources */,
