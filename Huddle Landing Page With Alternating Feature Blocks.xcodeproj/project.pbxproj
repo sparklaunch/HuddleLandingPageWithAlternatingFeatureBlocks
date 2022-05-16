@@ -28,6 +28,7 @@
 		90D4F2BD2831E997003B7048 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2BC2831E997003B7048 /* FooterView.swift */; };
 		90D4F2BF2831E9CA003B7048 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */; };
 		90D4F2C12831EA3C003B7048 /* FooterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */; };
+		90D4F2C32831EB0D003B7048 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2C22831EB0D003B7048 /* FooterContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		90D4F2BC2831E997003B7048 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 		90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLocationView.swift; sourceTree = "<group>"; };
+		90D4F2C22831EB0D003B7048 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				90D4F2BC2831E997003B7048 /* FooterView.swift */,
 				90D4F2BE2831E9CA003B7048 /* FooterLogoView.swift */,
 				90D4F2C02831EA3C003B7048 /* FooterLocationView.swift */,
+				90D4F2C22831EB0D003B7048 /* FooterContactView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				90D4F2B12831E427003B7048 /* TopNavigationView.swift in Sources */,
 				90D4F2AB2831E212003B7048 /* HeaderTitleView.swift in Sources */,
 				90D4F2B32831E449003B7048 /* TryButtonView.swift in Sources */,
+				90D4F2C32831EB0D003B7048 /* FooterContactView.swift in Sources */,
 				90D4F2B52831E5AA003B7048 /* Feature.swift in Sources */,
 				90D4F2AD2831E2D6003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,

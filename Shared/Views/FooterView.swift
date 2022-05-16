@@ -14,6 +14,7 @@ struct FooterView: View {
             VStack(alignment: .leading, spacing: 24) {
                 FooterLogoView()
                 FooterLocationView()
+                FooterContactView()
             }
             .padding(24)
         }
