@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             HeaderBackgroundView()
             HeaderContentView()
         }

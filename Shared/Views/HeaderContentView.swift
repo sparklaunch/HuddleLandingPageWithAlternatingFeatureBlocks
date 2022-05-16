@@ -12,6 +12,7 @@ struct HeaderContentView: View {
         VStack(spacing: 36) {
             HeaderTitleView()
             GetStartedButtonView()
+            HeaderIllustrationView()
         }
         .padding(24)
     }

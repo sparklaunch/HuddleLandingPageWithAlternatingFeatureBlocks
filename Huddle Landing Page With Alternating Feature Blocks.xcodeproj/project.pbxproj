@@ -18,6 +18,7 @@
 		90D4F2A92831E1FE003B7048 /* HeaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2A82831E1FE003B7048 /* HeaderContentView.swift */; };
 		90D4F2AB2831E212003B7048 /* HeaderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2AA2831E212003B7048 /* HeaderTitleView.swift */; };
 		90D4F2AD2831E2D6003B7048 /* GetStartedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2AC2831E2D6003B7048 /* GetStartedButtonView.swift */; };
+		90D4F2AF2831E38F003B7048 /* HeaderIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		90D4F2A82831E1FE003B7048 /* HeaderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderContentView.swift; sourceTree = "<group>"; };
 		90D4F2AA2831E212003B7048 /* HeaderTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTitleView.swift; sourceTree = "<group>"; };
 		90D4F2AC2831E2D6003B7048 /* GetStartedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedButtonView.swift; sourceTree = "<group>"; };
+		90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderIllustrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				90D4F2A82831E1FE003B7048 /* HeaderContentView.swift */,
 				90D4F2AA2831E212003B7048 /* HeaderTitleView.swift */,
 				90D4F2AC2831E2D6003B7048 /* GetStartedButtonView.swift */,
+				90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				90D4F2AB2831E212003B7048 /* HeaderTitleView.swift in Sources */,
 				90D4F2AD2831E2D6003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,
+				90D4F2AF2831E38F003B7048 /* HeaderIllustrationView.swift in Sources */,
 				90D4F2932831DEF6003B7048 /* HuddleLandingPageWithAlternatingFeatureBlocksApp.swift in Sources */,
 				90D4F2A92831E1FE003B7048 /* HeaderContentView.swift in Sources */,
 			);
