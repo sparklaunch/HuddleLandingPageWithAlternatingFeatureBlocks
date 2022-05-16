@@ -9,8 +9,9 @@ import SwiftUI
 
 struct HeaderContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 36) {
             HeaderTitleView()
+            GetStartedButtonView()
         }
         .padding(24)
     }
