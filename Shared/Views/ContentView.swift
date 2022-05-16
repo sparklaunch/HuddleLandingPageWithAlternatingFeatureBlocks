@@ -14,6 +14,7 @@ struct ContentView: View {
             VStack {
                 HeaderView()
                 FeaturesView()
+                FooterView()
             }
             .environmentObject(featureStorage)
         }
