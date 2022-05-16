@@ -1,5 +1,5 @@
 //
-//  HeaderView.swift
+//  HeaderContentView.swift
 //  Huddle Landing Page With Alternating Feature Blocks (iOS)
 //
 //  Created by Jinwook Kim on 2022/05/16.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct HeaderContentView: View {
     var body: some View {
-        ZStack {
-            HeaderBackgroundView()
-            HeaderContentView()
+        VStack {
+            HeaderTitleView()
         }
+        .padding(24)
     }
 }
 
-struct HeaderView_Previews: PreviewProvider {
+struct HeaderContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderContentView()
             .previewLayout(.sizeThatFits)
     }
 }
