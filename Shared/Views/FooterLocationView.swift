@@ -17,7 +17,7 @@ struct FooterLocationView: View {
                 .padding(.top, 8)
             Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
                 .foregroundColor(.white)
-                .fixedSize(horizontal: false, vertical: true)
+                .fixedSize(horizontal: false, vertical: false)
         }
     }
 }

@@ -34,6 +34,7 @@
 		90D4F2C92831EC3F003B7048 /* FooterSitemapItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2C82831EC3F003B7048 /* FooterSitemapItemView.swift */; };
 		90D4F2CB2831ED2C003B7048 /* FooterSocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2CA2831ED2C003B7048 /* FooterSocialMediaView.swift */; };
 		90D4F2CD2831ED3C003B7048 /* FooterSocialMediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2CC2831ED3C003B7048 /* FooterSocialMediaItemView.swift */; };
+		90D4F2CF2831EEA1003B7048 /* FooterCopyrightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2CE2831EEA1003B7048 /* FooterCopyrightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		90D4F2C82831EC3F003B7048 /* FooterSitemapItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSitemapItemView.swift; sourceTree = "<group>"; };
 		90D4F2CA2831ED2C003B7048 /* FooterSocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaView.swift; sourceTree = "<group>"; };
 		90D4F2CC2831ED3C003B7048 /* FooterSocialMediaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaItemView.swift; sourceTree = "<group>"; };
+		90D4F2CE2831EEA1003B7048 /* FooterCopyrightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCopyrightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				90D4F2C82831EC3F003B7048 /* FooterSitemapItemView.swift */,
 				90D4F2CA2831ED2C003B7048 /* FooterSocialMediaView.swift */,
 				90D4F2CC2831ED3C003B7048 /* FooterSocialMediaItemView.swift */,
+				90D4F2CE2831EEA1003B7048 /* FooterCopyrightView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,
 				90D4F2BF2831E9CA003B7048 /* FooterLogoView.swift in Sources */,
 				90D4F2B92831E7D8003B7048 /* FeaturesView.swift in Sources */,
+				90D4F2CF2831EEA1003B7048 /* FooterCopyrightView.swift in Sources */,
 				90D4F2C52831EB85003B7048 /* FooterEmailView.swift in Sources */,
 				90D4F2BB2831E822003B7048 /* FeatureItemView.swift in Sources */,
 				90D4F2CB2831ED2C003B7048 /* FooterSocialMediaView.swift in Sources */,
