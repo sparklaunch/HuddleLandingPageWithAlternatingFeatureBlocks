@@ -25,9 +25,12 @@ struct FooterView: View {
                 FooterSocialMediaView()
                 FooterCopyrightView()
             }
-            .padding(.top, 80)
+            .padding(.top, 120)
             .padding(.bottom, 36)
         }
+        .overlay(FooterOverlay()
+            .padding()
+            .offset(x: .zero, y: -120), alignment: .top)
         .fixedSize(horizontal: false, vertical: true)
     }
 }
@@ -35,6 +38,7 @@ struct FooterView: View {
 struct FooterView_Previews: PreviewProvider {
     static var previews: some View {
         FooterView()
+            .padding(.top, 200)
             .previewLayout(.sizeThatFits)
     }
 }

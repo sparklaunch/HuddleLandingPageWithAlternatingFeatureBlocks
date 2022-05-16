@@ -15,6 +15,7 @@ struct ContentView: View {
                 HeaderView()
                 FeaturesView()
                 FooterView()
+                    .padding(.top, 160)
             }
             .environmentObject(featureStorage)
         }
