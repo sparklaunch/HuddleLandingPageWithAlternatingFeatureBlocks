@@ -9,10 +9,12 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ZStack(alignment: .bottom) {
+        ZStack(alignment: .top) {
             HeaderBackgroundView()
             HeaderContentView()
+                .padding(.top, 44)
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 

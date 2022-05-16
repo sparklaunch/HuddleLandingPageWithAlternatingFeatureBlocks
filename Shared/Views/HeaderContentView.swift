@@ -9,12 +9,15 @@ import SwiftUI
 
 struct HeaderContentView: View {
     var body: some View {
-        VStack(spacing: 36) {
-            HeaderTitleView()
-            GetStartedButtonView()
-            HeaderIllustrationView()
+        VStack {
+            TopNavigationView()
+            VStack(spacing: 36) {
+                HeaderTitleView()
+                GetStartedButtonView()
+                HeaderIllustrationView()
+            }
+            .padding(24)
         }
-        .padding(24)
     }
 }
 
