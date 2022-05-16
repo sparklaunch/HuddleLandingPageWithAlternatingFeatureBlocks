@@ -13,6 +13,8 @@
 		90D4F2962831DEF6003B7048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2842831DEF5003B7048 /* ContentView.swift */; };
 		90D4F2972831DEF6003B7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4F2852831DEF6003B7048 /* Assets.xcassets */; };
 		90D4F2982831DEF6003B7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4F2852831DEF6003B7048 /* Assets.xcassets */; };
+		90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2A42831E159003B7048 /* HeaderView.swift */; };
+		90D4F2A72831E16A003B7048 /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2A62831E16A003B7048 /* HeaderBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		90D4F28A2831DEF6003B7048 /* Huddle Landing Page With Alternating Feature Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huddle Landing Page With Alternating Feature Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F2902831DEF6003B7048 /* Huddle Landing Page With Alternating Feature Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huddle Landing Page With Alternating Feature Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F2922831DEF6003B7048 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90D4F2A42831E159003B7048 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90D4F2A62831E16A003B7048 /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				90D4F2842831DEF5003B7048 /* ContentView.swift */,
+				90D4F2A42831E159003B7048 /* HeaderView.swift */,
+				90D4F2A62831E16A003B7048 /* HeaderBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D4F2952831DEF6003B7048 /* ContentView.swift in Sources */,
+				90D4F2A72831E16A003B7048 /* HeaderBackgroundView.swift in Sources */,
+				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,
 				90D4F2932831DEF6003B7048 /* HuddleLandingPageWithAlternatingFeatureBlocksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
