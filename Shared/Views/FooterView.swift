@@ -11,11 +11,14 @@ struct FooterView: View {
     var body: some View {
         ZStack {
             Color("TitleColor")
-            VStack(alignment: .leading, spacing: 24) {
-                FooterLogoView()
-                FooterLocationView()
-                FooterContactView()
-                FooterEmailView()
+            VStack(alignment: .leading, spacing: 36) {
+                VStack(alignment: .leading, spacing: 24) {
+                    FooterLogoView()
+                    FooterLocationView()
+                    FooterContactView()
+                    FooterEmailView()
+                }
+                FooterSitemapView()
             }
             .padding(24)
         }

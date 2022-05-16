@@ -14,7 +14,7 @@ struct FooterLogoView: View {
             .renderingMode(.template)
             .scaledToFit()
             .foregroundColor(.white)
-            .frame(height: 36)
+            .frame(height: 32)
     }
 }
 
