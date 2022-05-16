@@ -21,6 +21,7 @@
 		90D4F2AF2831E38F003B7048 /* HeaderIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */; };
 		90D4F2B12831E427003B7048 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B02831E427003B7048 /* TopNavigationView.swift */; };
 		90D4F2B32831E449003B7048 /* TryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B22831E449003B7048 /* TryButtonView.swift */; };
+		90D4F2B52831E5AA003B7048 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2B42831E5AA003B7048 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		90D4F2AE2831E38F003B7048 /* HeaderIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderIllustrationView.swift; sourceTree = "<group>"; };
 		90D4F2B02831E427003B7048 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90D4F2B22831E449003B7048 /* TryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryButtonView.swift; sourceTree = "<group>"; };
+		90D4F2B42831E5AA003B7048 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		90D4F2A32831DF1F003B7048 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90D4F2B42831E5AA003B7048 /* Feature.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				90D4F2B12831E427003B7048 /* TopNavigationView.swift in Sources */,
 				90D4F2AB2831E212003B7048 /* HeaderTitleView.swift in Sources */,
 				90D4F2B32831E449003B7048 /* TryButtonView.swift in Sources */,
+				90D4F2B52831E5AA003B7048 /* Feature.swift in Sources */,
 				90D4F2AD2831E2D6003B7048 /* GetStartedButtonView.swift in Sources */,
 				90D4F2A52831E159003B7048 /* HeaderView.swift in Sources */,
 				90D4F2AF2831E38F003B7048 /* HeaderIllustrationView.swift in Sources */,
